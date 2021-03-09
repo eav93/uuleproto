@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package Protocol;
+
+message Uule {
+  optional int32 role            = 1;
+  optional int32 producer        = 2;
+  optional string canonicalName  = 4;
+}
